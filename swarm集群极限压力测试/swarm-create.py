@@ -11,6 +11,7 @@ class DockerCreateThread(threading.Thread):
         self.thread_name = name
         self.thread_id = id
     def run(self):
+        
         command = "docker -H :4000 run docker"
         os.system(command)
 
