@@ -5,13 +5,13 @@ import MySQLdb
 import argparse
 import json
 
-devDbConfig = ('10.3.128.42', 'test_pre', 'test_pre.123', 'biocloud_compute')
+devDbConfig = ('1.3.1.1', 'test', 'test', 'test')
 
-hgDbConfig = ('10.2.12.1', 'cloud', 'cloud.123.bmk', 'biocloud_compute')
+hgDbConfig = ('1.3.1.1', 'test', 'test', 'test')
 
-yzDbConfig = ('10.50.1.250', 'cloud', '123.bmk', 'biocloud_compute')
+yzDbConfig = ('1.3.1.1', 'test', 'test', 'test')
 
-rtmDbConfig = ('10.3.129.50', 'rtm_cloud', '123.rtm_cloud..bmk', 'biocloud_compute')
+rtmDbConfig = ('1.3.1.1', 'test', 'test', 'test')
 
 databaseConfig = dict()
 databaseConfig['dev'] = devDbConfig

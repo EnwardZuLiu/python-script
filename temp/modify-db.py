@@ -12,7 +12,7 @@ def getConnection(hostIp, username, password, dbName):
     return dbConnection
 
 def run():
-    conn = getConnection('10.19.1.250', 'cloud', '123.bmk', 'biocloud_compute')
+    conn = getConnection('1.1.1.0', 'test', 'test', 'test')
     cursor = conn.cursor()
     cursor.execute(select_sql)
     rows = cursor.fetchall()
