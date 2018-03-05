@@ -5,9 +5,7 @@
 
 import MySQLdb
 import fire
-# from enum import Enum
 import time, datetime
-# import csv
 
 '''
 用来离线计算Workflow的资源使用情况
