@@ -2,6 +2,7 @@
 # -*-coding:utf-8-*-
 #
 #
+from __future__ import print_function
 import web
 import time
 
@@ -11,7 +12,7 @@ urls = (
 
 class index:
     def GET(self):
-        print 'gogoogogo'
+        print('gogoogogo')
         time.sleep(3)
         return 'aaaa'
 

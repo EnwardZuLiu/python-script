@@ -2,6 +2,7 @@
 # -*-coding:utf-8-*-
 #
 #
+from __future__ import print_function
 
 import urllib
 import urllib2
@@ -20,9 +21,9 @@ class MyThread(threading.Thread):
         while True:
             try:
                 req1 = urllib.urlopen('http://localhost:8090/index')
-                print str(self.thread_id) + "访问结果为" + str(req1.read())
+                print(str(self.thread_id) + "访问结果为" + str(req1.read()))
             except Exception, e:
-                print "访问服务器异常" + traceback.print_exc()
+                print("访问服务器异常" + traceback.print_exc())
 
 
 for i in range(1, 10000, 1):
