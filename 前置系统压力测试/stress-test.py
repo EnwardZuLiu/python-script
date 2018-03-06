@@ -29,4 +29,3 @@ class MyThread(threading.Thread):
 for i in range(1, 10000, 1):
     myThread = MyThread(i, "Thread-" + str(i))
     myThread.start()
-
